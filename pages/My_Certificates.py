@@ -21,3 +21,4 @@ with col5:
         st.image("certificates/" + row["image"])
         st.write(row["description"])
         st.write(f"[Link]({row['url']})")
+        st.divider()
